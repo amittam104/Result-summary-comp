@@ -186,3 +186,75 @@ main {
 .btn:hover {
   background: linear-gradient(#7857ff, #2e2be9);
 }
+
+@media (max-width: 376px) {
+  /* Common Section */
+  .container {
+    flex-direction: column;
+  }
+
+  .header {
+    font-size: 2rem;
+  }
+  /* Result Section */
+  .result {
+    border-radius: 0 0 2rem 2rem;
+    max-width: 100%;
+  }
+
+  .header-result {
+    margin-bottom: 3.6rem;
+    margin-top: 1rem;
+  }
+
+  .main-result {
+    margin-bottom: 2.6rem;
+  }
+
+  .sub-header {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  .result-text {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.6;
+  }
+
+  /* Summary Section */
+  .header-summary {
+    margin-bottom: 2rem;
+  }
+
+  .summary-bars {
+    min-width: 100%;
+    gap: 1.6rem;
+  }
+
+  .summary-bar {
+    height: 4.8rem;
+  }
+
+  .icon {
+    width: 1.8rem;
+  }
+
+  .score {
+    font-size: 1.5rem;
+  }
+  .summary-name {
+    font-size: 1.5rem;
+  }
+
+  .summary-outof {
+    font-weight: 800;
+  }
+
+  .btn {
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: hsl(221, 100%, 96%);
+    padding: 2.2rem 5.2rem;
+  }
+}
